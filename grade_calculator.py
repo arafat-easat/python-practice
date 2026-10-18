@@ -1,6 +1,6 @@
 # marks = input('please enter your marks:')
 # marks = int(marks)
-marks = int(input("please enter your marks:"))
+marks = int(input("please enter your marks:")) 
 
 if marks >= 80:
     grade = "A+"
