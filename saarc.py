@@ -6,5 +6,5 @@ if country in saarc:
 
 else:
     print(country,'is not member of SAARC')
-    
-    print('program terminated')
+
+
