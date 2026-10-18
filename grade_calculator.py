@@ -1,19 +1,17 @@
-marks = input('please enter your marks:')
-marks = int(marks)
-
+# marks = input('please enter your marks:')
+# marks = int(marks)
+marks = int(input("please enter your marks:"))
 
 if marks >= 80:
-    grade = 'A+'
+    grade = "A+"
 elif marks >= 70:
-    grade = 'A-'
+    grade = "A-"
 elif marks >= 60:
-    grade = 'A'
-elif marks >=50:
-    grade = 'B'
+    grade = "A"
+elif marks >= 50:
+    grade = "B"
 else:
-    grade = 'F'
+    grade = "F"
 
 
-
-print('Your grade is',grade)
-
+print("Your grade is", grade)
