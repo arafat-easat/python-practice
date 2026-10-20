@@ -29,6 +29,8 @@
 # OR
 # 👉 ৪০০ দিয়ে ভাগ যায়
 
+# 100 diye bag gele 400 diyeo jete hobe
+
 year = int(input("enter a year:"))
 # if year % 4 == 0 :
 #     if year % 100 == 0:
@@ -50,10 +52,8 @@ if year % 4 == 0:
             print("yes")
         else:
             print("no")
-
     else:
-        print("no")
-
+        print("yes")
 
 else:
     print("no")
