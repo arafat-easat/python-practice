@@ -1,6 +1,7 @@
-# import turtle
+import turtle
 
-# turtle.shape('turtle')
+turtle.shape("turtle")
+turtle.speed(1)
 
 # turtle.forward(100)
 # turtle.left(90)
@@ -9,9 +10,11 @@
 # turtle.forward(100)
 # turtle.left(90)
 # turtle.forward(100)
+for i in range(4):
+    turtle.forward(100)
+    turtle.left(90)
 
-# turtle.exitonclick()
-
+turtle.exitonclick()
 
 
 # import turtle
@@ -27,16 +30,13 @@
 # turtle.exitonclick()
 
 
+# import turtle
 
-import turtle
+# turtle.shape('turtle')
+# turtle.speed(1)
 
-turtle.shape('turtle')
-turtle.speed(1)
+# for i in range(4):
+#     turtle.forward(100)
+#     turtle.left(90)
 
-for i in range(4):
-    turtle.forward(100)
-    turtle.left(90)
-
-turtle.exitonclick()    
-
-
+# turtle.exitonclick()
