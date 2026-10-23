@@ -1,6 +1,6 @@
 import turtle
 
-turtle.color('blue')
+turtle.color("blue")
 turtle.speed(5)
 
 counter = 0
@@ -12,4 +12,4 @@ while counter < 36:
     counter += 1
 
 
-turtle.exitonclick()        
+turtle.exitonclick()
